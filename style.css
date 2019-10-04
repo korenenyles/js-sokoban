@@ -1,0 +1,70 @@
+:root {
+  display: flex;
+}
+
+#container {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.cell {
+  display: flex;
+  box-sizing: border-box;
+  height: 50px;
+  width: 50px;
+}
+
+.wallCell {
+  background-image: url(images/bricks.png);
+  background-position: center;
+  background-repeat: none;
+  background-color: rgb(73, 16, 20);
+}
+
+.floorCell {
+  background-color: white;
+}
+.startCell {
+  background-color: white;
+  position: relative;
+}
+
+.boxCell {
+  background-color: rgb(71, 47, 20);
+  background-image: url(images/crate.jpg);
+  background-position: center;
+  background-repeat: none;
+}
+
+.storageSpot {
+  border-radius: 50%;
+  background-color: red;
+  background-image: url(images/x.jpg);
+  background-position: center;
+  background-repeat: none;
+  shape-outside: circle();
+}
+.storageBoxHereAtStart {
+  background-color: rgb(87, 62, 9);
+}
+
+.player {
+  background-image: url(images/images.jpeg);
+  background-position: center;
+  background-repeat: none;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  background-color: black;
+}
+
+#playerbox {
+  position: relative;
+
+  height: 50px;
+  width: 50px;
+}
