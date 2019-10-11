@@ -1,70 +1,106 @@
-:root {
+#header {
   display: flex;
-}
-
-#container {
-  box-sizing: border-box;
-}
-
-.row {
-  display: flex;
-  box-sizing: border-box;
-}
-
-.cell {
-  display: flex;
-  box-sizing: border-box;
-  height: 50px;
-  width: 50px;
-}
-
-.wallCell {
-  background-image: url(images/bricks.png);
-  background-position: center;
-  background-repeat: none;
-  background-color: rgb(73, 16, 20);
-}
-
-.floorCell {
-  background-color: white;
-}
-.startCell {
-  background-color: white;
-  position: relative;
-}
-
-.boxCell {
-  background-color: rgb(71, 47, 20);
-  background-image: url(images/crate.jpg);
-  background-position: center;
-  background-repeat: none;
-}
-
-.storageSpot {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: whitesmoke;
+  font-family: fantasy;
+  background-color: green;
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
   border-radius: 50%;
-  background-color: red;
-  background-image: url(images/x.jpg);
-  background-position: center;
-  background-repeat: none;
-  shape-outside: circle();
 }
-.storageBoxHereAtStart {
-  background-color: rgb(87, 62, 9);
+h2 {
+  font-size: 35px;
+}
+body {
+  background-image: url(/images/a12f3cd259218bc5109aa7ad88d9af47.png);
+  background-repeat: no-repeat;
+  font-family: "Indie Flower", cursive;
 }
 
-.player {
-  background-image: url(images/images.jpeg);
-  background-position: center;
-  background-repeat: none;
-  height: 50px;
+main {
+  display: flex;
+  flex-direction: column;
+  font-family: "Indie Flower", cursive;
+  justify-content: center;
+  align-items: center;
+}
+
+.mazeRow {
+  flex-direction: row;
+  display: flex;
+}
+
+.wall {
+  background: rgb(138, 24, 172);
+  height: 39px;
   width: 50px;
-  position: relative;
-  background-color: black;
+  background-image: url("images/bushesongrass.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-#playerbox {
-  position: relative;
-
-  height: 50px;
+#start {
+  background-image: url("images/dogwalkingongrass.png");
+  height: 39px;
   width: 50px;
+  background-size: 100% 100%;
+}
+
+#manOnContainer {
+  height: 39px;
+  width: 50px;
+  background-image: url("images/dogwalkingongrass.png");
+  background-size: 100% 100%;
+}
+
+.walkway {
+  height: 39px;
+  width: 50px;
+  background-image: url("images/grass.png");
+  background-repeat: no-repeat;
+}
+
+#box {
+  display: flex;
+  height: 39px;
+  width: 50px;
+  background-image: url("/images/boneingrass.png");
+  background-repeat: no-repeat;
+}
+
+#emptyStorage {
+  display: flex;
+  height: 39px;
+  width: 50px;
+  background-image: url("images/bowlongrass.png");
+  background-repeat: no-repeat;
+}
+
+#boxOnStart {
+  display: flex;
+  height: 39px;
+  width: 50px;
+  background-image: url("/images/boneinbowl.png");
+  background-repeat: no-repeat;
+}
+
+#button {
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  color: red;
+  height: 35px;
+  width: 100px;
+}
+#winMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 25px;
+  height: 30px;
+  width: 100x;
+  color: tan;
 }

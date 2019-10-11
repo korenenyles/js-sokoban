@@ -1,16 +1,33 @@
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Sokoban Assessment</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sokoban</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   </head>
+
   <body>
-    <h1>Sokoban Assessment</h1>
+    <div id="header">
+      <h1>Drogo the Dog Lost his Bones!</h1>
 
-    <div id="container"></div>
+      <h2>Drogo must stay in the backyard!</h2>
+      <p id="winMessage">
+        Can you help him get his bones back to his bowls?
+      </p>
+    </div>
+    <input
+      id="button"
+      type="button"
+      value="Find Again?"
+      onClick="history.go(0)"
+    />
 
+    <main id="maze"></main>
     <script src="script.js"></script>
   </body>
 </html>
