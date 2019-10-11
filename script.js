@@ -219,3 +219,5 @@ function legalMove(x, y) {
   }
   return false;
 }
+
+//Helped by Elizabeth Scheidt
