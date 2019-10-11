@@ -15,7 +15,7 @@ h2 {
   font-size: 35px;
 }
 body {
-  background-image: url(/images/a12f3cd259218bc5109aa7ad88d9af47.png);
+  background-image: url("images/a12f3cd259218bc5109aa7ad88d9af47.png");
   background-repeat: no-repeat;
   font-family: "Indie Flower", cursive;
 }
@@ -67,7 +67,7 @@ main {
   display: flex;
   height: 39px;
   width: 50px;
-  background-image: url("/images/boneingrass.png");
+  background-image: url("images/boneingrass.png");
   background-repeat: no-repeat;
 }
 
@@ -83,7 +83,7 @@ main {
   display: flex;
   height: 39px;
   width: 50px;
-  background-image: url("/images/boneinbowl.png");
+  background-image: url("images/boneinbowl.png");
   background-repeat: no-repeat;
 }
 
